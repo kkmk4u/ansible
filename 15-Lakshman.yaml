@@ -1,4 +1,5 @@
 - name: this is sample variable program
+  host:
   region:
     - northeast
     - southeast
