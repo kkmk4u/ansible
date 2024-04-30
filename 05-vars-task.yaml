@@ -5,7 +5,7 @@
     Trainer: "Lakshman"
     Duration: "120hrs"
   tasks:
-  - name: print information
+  - name: print override information
     vars: #variable declaration
       Course: "DevOps"
     ansible.builtin.debug:
