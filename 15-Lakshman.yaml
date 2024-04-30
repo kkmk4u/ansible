@@ -1,0 +1,7 @@
+- name: this is sample variable program
+  region:
+    - northeast
+    - southeast
+    - midwest
+  ansible.builtin.debug:
+    msg: this is hello{{region[0]]} world!
