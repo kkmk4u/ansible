@@ -1,0 +1,5 @@
+- name: variable preference
+  hosts: localhost
+  tasks:
+  - names: check preference
+  
