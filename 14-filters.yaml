@@ -3,7 +3,7 @@
   vars_files:
   - vars.yaml
   vars_prompt:
-    - name: enter-username
+    - name: enter_username
       prompt: please enter username
       private: false
   tasks:
@@ -12,4 +12,4 @@
     ansible.builtin.debug:
       msg: 
       - "Hello {{course}}"
-      - "print the username{{enter-username}}"
+      - "print the username{{enter_username}}"
