@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: print default value
-     vars_files:
-      - vars.yaml
+    vars_files:
+    - vars.yaml
     ansible.builtin.debug:
       msg: "Hello {{course}}"
