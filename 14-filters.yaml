@@ -33,6 +33,6 @@
   vars:
     ages: [27,32,30,25]
   tasks:
-  - name:print min and max
+  - name: print min and max
     ansible.builtin.debug:
-    msg: "min age: {{ages | min}}, max age: {{ages | max}}"
+    msg: "min age: {{ ages | min }}, max age: {{ ages | max }}"
