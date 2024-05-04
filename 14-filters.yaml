@@ -18,3 +18,12 @@
       - "desig 'is'{{desig}}"
       - "{{username| upper}}"
       - "{{username| lower}}"
+
+- name: remove duplicate
+  hosts: localhost
+  vars:
+    numbers: [1,1,2,3,4,4,4,2,4,5]
+  tasks:
+  - name: remove duplicate
+    ansible.builtin.debug:
+      msg: "{{numbers | unique }}"
