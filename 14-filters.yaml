@@ -16,3 +16,5 @@
       - "Hello {{course}}"
       - "print the username{{enter_username}}"
       - "desig 'is'{{desig}}"
+      - "{{course| upper}}"
+      - "{{course| lower}}"
