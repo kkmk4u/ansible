@@ -15,4 +15,4 @@
       msg: 
       - "Hello {{course}}"
       - "print the username{{enter_username}}"
-      - "desig is "{{desig}}"
+      - "desig "is"{{desig}}"
