@@ -8,8 +8,11 @@
       private: false
   tasks:
   - name: print default value
+    vars:
+      desig: IT
     
     ansible.builtin.debug:
       msg: 
       - "Hello {{course}}"
       - "print the username{{enter_username}}"
+      - "desig is {{desig}}"
