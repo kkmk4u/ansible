@@ -4,5 +4,11 @@
   - vars.yaml
   tasks:
   - name: print default value
+    vars_prompt:
+    - name: enter-username
+      prompt: please enter username
+      private: false
     ansible.builtin.debug:
-      msg: "Hello {{course}}"
+      msg: 
+      - "Hello {{course}}"
+      - "print the username{{enter-username}}"
