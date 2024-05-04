@@ -2,12 +2,13 @@
   hosts: localhost
   vars_files:
   - vars.yaml
-  tasks:
-  - name: print default value
-    vars_prompt:
+  vars_prompt:
     - name: enter-username
       prompt: please enter username
       private: false
+  tasks:
+  - name: print default value
+    
     ansible.builtin.debug:
       msg: 
       - "Hello {{course}}"
