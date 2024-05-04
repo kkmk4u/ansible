@@ -31,7 +31,7 @@
 - name: print min and max
   hosts: localhost
   vars:
-    ages: [27,32,30,25]
+    ages: [27, 32, 30, 25]
   tasks:
   - name: print min and max
     ansible.builtin.debug:
