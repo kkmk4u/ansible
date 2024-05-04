@@ -1,8 +1,8 @@
 - name: default value
   hosts: localhost
+  vars_files:
+  - vars.yaml
   tasks:
   - name: print default value
-    vars_files:
-    - vars.yaml
     ansible.builtin.debug:
       msg: "Hello {{course}}"
