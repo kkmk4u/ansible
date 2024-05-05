@@ -9,4 +9,4 @@
     loop:
     - mysql
     - nginx
-    - postpix
+    - postfix
